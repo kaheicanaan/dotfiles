@@ -996,7 +996,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>173 649 796 486 0 0 2560 1417 </string>
+	<string>190 669 918 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>586 391 890 602 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -1248,7 +1248,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>80</integer>
+			<integer>120</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -1655,7 +1655,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>32</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
