@@ -20,3 +20,9 @@ ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 
 # Git
 ln -sF "${DIR}/gitconfig" "${HOME}/.gitconfig"
+
+# Vim
+ln -sF "${DIR}/vimrc" "${HOME}/.vimrc"
+mkdir -p "${HOME}/.vim/bundle"
+rm -rf "${HOME}/.vim/bundle/Vundle.vim"
+ln -sF "${DIR}/Vundle.vim" "${HOME}/.vim/bundle/Vundle.vim"
