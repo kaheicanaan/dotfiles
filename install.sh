@@ -15,11 +15,13 @@ ln -sF "${DIR}/base16-shell" "${HOME}/.config/base16-shell"
 ln -sF "${DIR}/zshrc" "${HOME}/.zshrc"
 
 # Prezto
+rm -rf "${HOME}/.zprezto"
 ln -sF "${DIR}/prezto" "${HOME}/.zprezto"
 ln -sF "${DIR}/zpreztorc" "${HOME}/.zpreztorc"
 
 # Git
 ln -sF "${DIR}/gitconfig" "${HOME}/.gitconfig"
+ln -sF "${DIR}/gitignore" "${HOME}/.gitignore"
 
 # Vim
 ln -sF "${DIR}/vimrc" "${HOME}/.vimrc"
