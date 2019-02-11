@@ -10,12 +10,11 @@ brew install font-hack
 ```bash
 git clone repo-url
 ./path/to/repo/install.sh
-vim
 ```
 
 3. Load iTerm2 preferences from dotfiles/iTerm2 folder
 
-4. Install vim plugins.
+4. Install vim plugins
 ```vim
 :PluginInstall
 ```
