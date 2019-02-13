@@ -5,9 +5,11 @@ zstyle ':prezto:load' pmodule \
   'history' \
   'utility' \
   'syntax-highlighting' \
+  'terminal' \
   'prompt'
 
 zstyle ':prezto:module:autosuggestions' color 'yes'
 zstyle ':prezto:module:prompt' theme 'peepcode'
 zstyle ':prezto:module:syntax-highlighting' color 'yes'
 zstyle ':prezto:module:utility:ls' color 'yes'
+zstyle ':prezto:module:terminal' auto-title 'yes'
