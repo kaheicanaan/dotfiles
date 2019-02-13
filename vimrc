@@ -11,6 +11,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+set laststatus=2
 
 " Plugin Manager
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -21,6 +22,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Base16
 Plugin 'chriskempson/base16-vim'
+Plugin 'itchyny/lightline.vim'
 
 " Vundle (end)
 call vundle#end()
