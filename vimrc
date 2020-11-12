@@ -12,6 +12,7 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set laststatus=2
+set backspace=indent,eol,start
 
 " Plugin Manager
 set rtp+=~/.vim/bundle/Vundle.vim
