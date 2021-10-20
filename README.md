@@ -3,8 +3,9 @@
 1. Download and install iTerm2, font-hack, vim from brew
 ```bash
 brew update && brew upgrade
-brew cask install iterm2
-brew tap homebrew/cask-fonts && brew cask install font-hack
+brew install --cask iterm2
+brew tap homebrew/cask-fonts && brew install --cask font-hack
+brew install diff-so-fancy
 brew install vim
 ```
 
