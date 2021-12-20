@@ -7,6 +7,9 @@ brew install --cask iterm2
 brew tap homebrew/cask-fonts && brew install --cask font-hack
 brew install diff-so-fancy
 brew install vim
+
+# for fzf-tab
+brew install fzf exa
 ```
 
 2. Downlaod repo and install
