@@ -10,6 +10,9 @@ brew install vim
 
 # for fzf-tab
 brew install fzf exa
+
+# for completion
+brew install zsh-completions
 ```
 
 2. Downlaod repo and install
@@ -26,6 +29,11 @@ cd ~/.vim/colors
 git clone git@github.com:chriskempson/base16-vim.git base16
 cp base16/colors/*.vim .
  ```
+
+Also download the `fzf-tab` module for zpreto:
+```bash
+git clone https://github.com/Aloxaf/fzf-tab $ZPREZTODIR/contrib/fzf-tab
+```
 
 3. Load iTerm2 preferences from dotfiles/iTerm2 folder
 
