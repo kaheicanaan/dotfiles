@@ -23,7 +23,7 @@ Fix is needed (to be integrated in a better way).
  Run the following lines of code to ensure the color scheme exists:
  ```bash
 cd ~/.vim/colors
-git clone git://github.com/chriskempson/base16-vim.git base16
+git clone git@github.com:chriskempson/base16-vim.git base16
 cp base16/colors/*.vim .
  ```
 
